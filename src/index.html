@@ -1,14 +1,482 @@
 <!doctype html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="/fontawesome-free-6.7.2-web/css/all.css">
   <!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
 </head>
+
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+  <nav class="flex md:pl-[200px] md:pr-[200px] sm:pr-5 sm:pl-5 sm:pb-[50px] justify-between pt-[40px] bg-[#f9c9c7]">
+    <div class="">
+      <img src="./img/logo.png" alt="">
+    </div>
+    <div class="md:hidden sm:block">
+      <i class="fa-solid fa-bars text-[25px]"></i>
+    </div>
+    <div class="flex gap-[40px] sm:hidden md:inline-flex">
+      <a href="">About Us</a>
+      <a>Courses</a>
+      <a>Events</a>
+      <a>Blog</a>
+      <a>Contacts</a>
+    </div>
+    <div class="flex gap-[10px] mt-[-10px] md:inline-flex sm:hidden">
+      <button class="w-[200px] h-[50px] rounded-[4px] bg-[#F75E05] text-white mr-[30px]">Get consultation</button>
+      <i class="fa-regular fa-user pt-[20px]"></i>
+      <p class="pt-[15px]">Log in / Register</p>
+    </div>
+  </nav>
+  <div
+    class="flex justify-between md:pl-[200px] sm:pl-5 pt-[80px] pr-[200px] bg-[#f9c9c7] sm:text-center md:text-start sm:flex-col md:flex-row">
+    <div class="pt-[50px]">
+      <img src="./img/play-video.png" alt="" class="sm:ml-[70px] md:ml-0">
+      <h1 class="md:w-[500px] sm:w-[340px] md:text-[64px] sm:text-[30px] pt-[30px] pb-[30px]">Enjoy studying
+        with Createx Online Courses</h1>
+      <div class="flex gap-[70px] sm:flex-col md:flex-row sm:ml-[125px] md:ml-0">
+        <button class="w-[100px] h-[40px] rounded-[4px] border-[1px] border-[#F75E05] text-[#F75E05]">About us</button>
+        <button class="w-[200px] h-[40px] rounded-[4px] bg-[#F75E05] text-white md:mr-[30px] sm:ml-[-50px]">Explore
+          courses</button>
+      </div>
+    </div>
+    <div class="">
+      <img src="./img/illustration.png" alt="" class="md:block sm:hidden">
+    </div>
+  </div>
+  <div
+    class="flex justify-between md:pl-[200px] sm:pl-[100px] sm:text-center md:text-start pt-[180px] bg-[#f9c9c7] pb-[100px]">
+    <div class="flex gap-[100px] sm:flex-col md:flex-row">
+      <div class="flex gap-[20px] sm:flex-col md:flex-row text">
+        <h2 class="text-[46px]">1200</h2>
+        <p class="pt-[25px]">Students graduated</p>
+        <div class="w-[10px] mt-[30px] h-[10px] rounded-[10px] bg-[#FF3F3A] sm:ml-[70px] md:ml-0"></div>
+      </div>
+      <div class="flex gap-[20px] sm:flex-col md:flex-row">
+        <h2 class="text-[46px]">84</h2>
+        <p class="pt-[25px]">Completed courses</p>
+        <div class="w-[10px] mt-[30px] h-[10px] rounded-[10px] bg-[#FF3F3A] sm:ml-[70px] md:ml-0"></div>
+      </div>
+      <div class="flex gap-[20px] sm:flex-col md:flex-row">
+        <h2 class="text-[46px]">16</h2>
+        <p class="pt-[25px]">Qualified tutors</p>
+        <div class="w-[10px] mt-[30px] h-[10px] rounded-[10px] bg-[#FF3F3A] sm:ml-[70px] md:ml-0"></div>
+      </div>
+      <div class="flex gap-[20px] sm:flex-col md:flex-row">
+        <h2 class="text-[46px]">5</h2>
+        <p class="pt-[25px]">Years of experience</p>
+      </div>
+    </div>
+  </div>
+  <div class="flex gap-[80px] mt-[150px] md:pl-[200px] sm:pl-5 md:flex-row sm:flex-col">
+    <div class="">
+      <img src="./img/image (25).png" alt="">
+    </div>
+    <div class="sm:text-center md:text-start">
+      <p>Who we are</p>
+      <h2 class="text-[36px] pb-[40px]">Why Createx?</h2>
+      <div class="flex gap-[15px] pb-[20px]">
+        <i class="fa-regular fa-circle-check pt-[8px] text-[#FF3F3A]"></i>
+        <p class="text-[#424551] w-[300px]">A fermentum in morbi pretium aliquam adipiscing donec tempus.</p>
+      </div>
+      <div class="flex gap-[15px] pb-[20px]">
+        <i class="fa-regular fa-circle-check pt-[8px] text-[#FF3F3A]"></i>
+        <p class="text-[#424551] w-[300px]">Vulputate placerat amet pulvinar lorem nisl.</p>
+      </div>
+      <div class="flex gap-[15px] pb-[20px]">
+        <i class="fa-regular fa-circle-check pt-[8px] text-[#FF3F3A]"></i>
+        <p class="text-[#424551] w-[300px]">Consequat feugiat habitant gravida quisque elit bibendum id adipiscing sed.
+        </p>
+      </div>
+      <div class="flex gap-[15px] pb-[20px]">
+        <i class="fa-regular fa-circle-check pt-[8px] text-[#FF3F3A]"></i>
+        <p class="text-[#424551] w-[300px]">Etiam duis lobortis in fames ultrices commodo nibh.</p>
+      </div>
+      <div class="flex gap-[15px] pb-[20px]">
+        <i class="fa-regular fa-circle-check pt-[8px] text-[#FF3F3A]"></i>
+        <p class="text-[#424551] w-[300px]">Tincidunt sagittis neque sem ac eget.</p>
+      </div>
+      <div class="flex gap-[15px] pb-[20px]">
+        <i class="fa-regular fa-circle-check pt-[8px] text-[#FF3F3A]"></i>
+        <p class="text-[#424551] w-[300px]">Ultricies amet justo et eget quisque purus vulputate dapibus tortor.</p>
+      </div>
+      <button class="w-[200px] h-[50px] rounded-[4px] bg-[#FF3F3A] text-white mr-[30px]">More about us</button>
+    </div>
+  </div>
+  <div
+    class="flex md:pl-[200px] sm:pl-0 mt-[180px] md:gap-[570px] sm:gap-[20px] sm:text-center md:text-start sm:flex-col md:flex-row">
+    <div class="">
+      <p>Ready to learn?</p>
+      <h2 class="text-[46px]">Featured Courses</h2>
+    </div>
+    <div class="mt-[30px]">
+      <button class="w-[200px] h-[50px] rounded-[4px] border-[#FF3F3A] border-[1px] text-[#FF3F3A] mr-[30px]">More about
+        us</button>
+    </div>
+  </div>
+  <div class="">
+    <div class="flex gap-[30px] sm:flex-col md:flex-row sm:pl-[50px] md:pl-0">
+      <div
+        class="md:w-[580px] sm:w-[250px] h-[200px] rounded-[4px] md:ml-[200px] sm:ml-0 mt-[50px] shadow-2xl border-[1px] flex sm:flex-col md:flex-row">
+        <img src="./img/image.png" alt="">
+        <div class="pl-[40px]">
+          <div class="w-[80px] h-[25px] bg-[#03CEA4] text-white mt-[30px] mb-[15px]">
+            <p>Marketing</p>
+          </div>
+          <h2 class="md:w-[300px] sm:w-[200px] text-[20px] mb-[20px]">The Ultimate Google Ads Training Course</h2>
+          <div class="flex gap-[10px]">
+            <p class="text-[#FF4242]">$100</p>
+            <p class="text-[#787A80]">|</p>
+            <p class="text-[#787A80]">by Jerome Bell</p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="md:w-[580px] sm:w-[250px] h-[200px] sm:mt-[200px] rounded-[4px] md:ml-[200px] sm:ml-0 md:mt-[50px] shadow-2xl border-[1px] flex sm:flex-col md:flex-row">
+        <img src="./img/image2.png" alt="">
+        <div class="pl-[40px]">
+          <div class="w-[80px] h-[25px] bg-[#03CEA4] text-white mt-[30px] mb-[15px]">
+            <p>Marketing</p>
+          </div>
+          <h2 class="md:w-[300px] sm:w-[200px] text-[20px] mb-[20px]">The Ultimate Google Ads Training Course</h2>
+          <div class="flex gap-[10px]">
+            <p class="text-[#FF4242]">$100</p>
+            <p class="text-[#787A80]">|</p>
+            <p class="text-[#787A80]">by Jerome Bell</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex gap-[30px] sm:flex-col md:flex-row sm:pl-[50px] md:pl-0">
+      <div
+        class="md:w-[580px] sm:w-[250px] h-[200px] sm:mt-[250px] rounded-[4px] md:ml-[200px] sm:ml-0 md:mt-[50px] shadow-2xl border-[1px] flex sm:flex-col md:flex-row">
+        <img src="./img/image3.png" alt="">
+        <div class="pl-[40px]">
+          <div class="w-[80px] h-[25px] bg-[#03CEA4] text-white mt-[30px] mb-[15px]">
+            <p>Marketing</p>
+          </div>
+          <h2 class="md:w-[300px] sm:w-[200px] text-[20px] mb-[20px]">The Ultimate Google Ads Training Course</h2>
+          <div class="flex gap-[10px]">
+            <p class="text-[#FF4242]">$100</p>
+            <p class="text-[#787A80]">|</p>
+            <p class="text-[#787A80]">by Jerome Bell</p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="md:w-[580px] sm:w-[250px] h-[200px] sm:mt-[250px] rounded-[4px] md:ml-[200px] sm:ml-0 md:mt-[50px] shadow-2xl border-[1px] flex sm:flex-col md:flex-row">
+        <img src="./img/image4.png" alt="">
+        <div class="pl-[40px]">
+          <div class="w-[80px] h-[25px] bg-[#03CEA4] text-white mt-[30px] mb-[15px]">
+            <p>Marketing</p>
+          </div>
+          <h2 class="md:w-[300px] sm:w-[200px] text-[20px] mb-[20px]">The Ultimate Google Ads Training Course</h2>
+          <div class="flex gap-[10px]">
+            <p class="text-[#FF4242]">$100</p>
+            <p class="text-[#787A80]">|</p>
+            <p class="text-[#787A80]">by Jerome Bell</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex gap-[30px] sm:flex-col md:flex-row sm:pl-[50px] md:pl-0">
+      <div
+        class="md:w-[580px] sm:w-[250px] h-[200px] sm:mt-[250px] rounded-[4px] md:ml-[200px] sm:ml-0 md:mt-[50px] shadow-2xl border-[1px] flex sm:flex-col md:flex-row">
+        <img src="./img/image5.png" alt="">
+        <div class="pl-[40px]">
+          <div class="w-[80px] h-[25px] bg-[#03CEA4] text-white mt-[30px] mb-[15px]">
+            <p>Marketing</p>
+          </div>
+          <h2 class="md:w-[300px] sm:w-[200px] text-[20px] mb-[20px]">The Ultimate Google Ads Training Course</h2>
+          <div class="flex gap-[10px]">
+            <p class="text-[#FF4242]">$100</p>
+            <p class="text-[#787A80]">|</p>
+            <p class="text-[#787A80]">by Jerome Bell</p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="md:w-[580px] sm:w-[250px] h-[200px] sm:mt-[250px] rounded-[4px] md:ml-[200px] sm:ml-0 md:mt-[50px] shadow-2xl border-[1px] flex sm:flex-col md:flex-row">
+        <img src="./img/image6.png" alt="">
+        <div class="pl-[40px]">
+          <div class="w-[80px] h-[25px] bg-[#03CEA4] text-white mt-[30px] mb-[15px]">
+            <p>Marketing</p>
+          </div>
+          <h2 class="md:w-[300px] sm:w-[200px] text-[20px] mb-[20px]">The Ultimate Google Ads Training Course</h2>
+          <div class="flex gap-[10px]">
+            <p class="text-[#FF4242]">$100</p>
+            <p class="text-[#787A80]">|</p>
+            <p class="text-[#787A80]">by Jerome Bell</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="justify-items-center mt-[80px] sm:hidden md:block">
+    <p>Our benefits</p>
+    <h1 class="text-[46px]">That’s how we do it</h1>
+
+  </div>
+  <div
+    class="flex gap-[140px] md:pt-[70px] sm:pt-[300px] md:pl-[200px] sm:pl-5 sm:flex-col md:flex-row sm:justify-self-center md:justify-self-start">
+    <div
+      class="w-[200px] h-[40px] text-[#FF3F3A] border-[1px] border-[#FF3F3A] flex gap-[10px] rounded-[4px] pl-[10px]">
+      <i class="fa-regular fa-star pt-[10px]"></i>
+      <p class="pt-[7px]">Experienced Tutors</p>
+    </div>
+    <div class="flex gap-[10px] text-[#9A9CA5]">
+      <i class="fa-regular fa-thumbs-up pt-[10px]"></i>
+      <p class="pt-[7px]">Feedback & Support</p>
+    </div>
+    <div class="flex gap-[10px] text-[#9A9CA5]">
+      <i class="fa-solid fa-layer-group pt-[10px]"></i>
+      <p class="pt-[7px]">24/7 Online Library</p>
+    </div>
+    <div class="flex gap-[10px] text-[#9A9CA5] sm:pl-[20px] md:pl-0">
+      <i class="fa-regular fa-comments pt-[10px]"></i>
+      <p class="pt-[7px]">Community</p>
+    </div>
+  </div>
+  <div class="flex mt-[150px] gap-[100px] sm:flex-col md:flex-row">
+    <div class="pt-[100px] md:pl-[200px] sm:pl-5">
+      <h2 class="text-[32px]">Only practicing tutors</h2>
+      <p class="text-[#424551] md:w-[470px] sm:w-[300px] pt-[30px]">Urna nisi, arcu cras nunc. Aenean quam est lobortis
+        mi non fames
+        dictum suspendisse. Morbi mauris cras massa ut
+        dolor quis sociis mollis augue. Nunc, sodales tortor sit diam mi amet massa. Fermentum diam diam sociis
+        vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehicula.</p>
+    </div>
+    <div class="">
+      <img src="./img/illustration (1).png" alt="">
+    </div>
+  </div>
+  <div class="w-[100%] h-[800px] bg-[#f9c9c7] sm:hidden md:block">
+    <div class="justify-items-center mt-[80px] pt-[50px]">
+      <p>Our events</p>
+      <h1 class="text-[46px]">Lectures & workshops</h1>
+    </div>
+    <div class="w-[1200px] h-[120px] bg-white justify-self-center mt-[40px] rounded-[2px]">
+      <div class="flex gap-[70px] pt-[20px] pl-[20px]">
+        <div class="flex gap-[20px]">
+          <h2 class="text-[48px] text-[#FF3F3A]">05</h2>
+          <div class="">
+            <h4 class="text-[20px]">August</h4>
+            <p class="text-[#787A80]">11:00 – 14:00</p>
+          </div>
+        </div>
+        <div class="">
+          <h4 class="text-[20px]">Formation of the organizational structure of the company in the face of uncertainty.
+          </h4>
+          <p class="text-[#787A80]">Onine master-class</p>
+        </div>
+        <div class="">
+          <button class="w-[100px] h-[44px] rounded-[4px] border-[1px] border-[#F75E05] text-[#F75E05]">View
+            more</button>
+        </div>
+      </div>
+    </div>
+    <div class="w-[1200px] h-[120px] bg-white justify-self-center mt-[20px] rounded-[2px] s">
+      <div class="flex gap-[70px] pt-[20px] pl-[20px]">
+        <div class="flex gap-[20px]">
+          <h2 class="text-[48px] text-[#FF3F3A]">24</h2>
+          <div class="">
+            <h4 class="text-[20px]">July</h4>
+            <p class="text-[#787A80]">11:00 – 12:30</p>
+          </div>
+        </div>
+        <div class="pr-[250px]">
+          <h4 class="text-[20px]">Building a customer service department. Best Practices.</h4>
+          <p class="text-[#787A80]">Onine lecture</p>
+        </div>
+        <div class="">
+          <button class="w-[100px] h-[44px] rounded-[4px] bg-[#F75E05] text-white">View more</button>
+        </div>
+      </div>
+    </div>
+    <div class="w-[1200px] h-[120px] bg-white justify-self-center mt-[20px] rounded-[2px]">
+      <div class="flex gap-[70px] pt-[20px] pl-[20px]">
+        <div class="flex gap-[20px]">
+          <h2 class="text-[48px] text-[#FF3F3A]">16</h2>
+          <div class="">
+            <h4 class="text-[20px]">July</h4>
+            <p class="text-[#787A80]">10:00 – 13:00</p>
+          </div>
+        </div>
+        <div class="">
+          <h4 class="text-[20px]">How to apply methods of speculative design in practice. Worldbuilding prototyping.
+          </h4>
+          <p class="text-[#787A80]">Onine workshop</p>
+        </div>
+        <div class="">
+          <button class="w-[100px] h-[44px] rounded-[4px] border-[1px] border-[#F75E05] text-[#F75E05]">View
+            more</button>
+        </div>
+      </div>
+    </div>
+    <div class="flex gap-[30px] mt-[80px] justify-center">
+      <h2 class="text-[28px]">Do you want more?</h2>
+      <button class="w-[200px] h-[44px] rounded-[4px] bg-[#F75E05] text-white">Explore all events</button>
+    </div>
+  </div>
+  <div class="w-[100%] h-[450px] flex mt-[80px] md:pl-[200px] sm:pl-5 sm:flex-col md:flex-row">
+    <div class="">
+      <h3 class="text-[18px]">Createx Certificate</h3>
+      <h2 class="w-[400px] text-[46px] pt-[5px] pb-[30px]">Your expertise will be confirmed</h2>
+      <p class="w-[400px] text-[#424551] pb-[40px]">We are accredited by international professional organizations and
+        institutes:</p>
+      <img src="./img/logos.png" alt="">
+    </div>
+    <div class="">
+      <img src="./img/image (26).png" alt="">
+    </div>
+  </div>
+  <div class="w-[100%] h-[900px] bg-[#F4F5F6] pt-[200px] md:pl-[200px] sm:pl-5">
+    <div class="flex justify-between md:pr-[200px] sm:pl-5">
+      <div class="">
+        <h4 class="text-[18px]">Best tutors are all here</h4>
+        <h2 class="text-[46px]">Meet our team</h2>
+      </div>
+      <div class="pt-[30px]">
+        <img src="./img/hover.png" alt="">
+      </div>
+    </div>
+    <div class="flex mt-[20px] gap-[30px] overflow-scroll">
+      <img src="./img/hover2.png" alt="">
+      <img src="./img/idle.png" alt="">
+      <img src="./img/idle2.png" alt="">
+      <img src="./img/idle3.png" alt="">
+    </div>
+  </div>
+  <div class="pt-[100px] md:pl-[200px] sm:pl-5">
+    <div class="flex justify-between md:pr-[200px] sm:pl-5 sm:flex-col md:flex-row">
+      <div class="">
+        <h4 class="text-[18px]">Best tutors are all here</h4>
+        <h2 class="text-[46px]">Meet our team</h2>
+      </div>
+      <div class="pt-[30px]">
+        <button class="w-[200px] h-[44px] rounded-[4px] bg-[#F75E05] text-white">Explore all events</button>
+      </div>
+    </div>
+  </div>
+  <div class="flex mt-[50px] md:pl-[220px] sm:pl-5 gap-[30px] mb-[80px] sm:flex-col md:flex-row">
+    <div class="">
+      <img src="./img/image55.png" alt="">
+      <div class="text-[#787A80] flex gap-[10px] pt-[10px] pb-[10px]">
+        <p>Marketing</p>
+        <p>|</p>
+        <i class="fa-regular fa-calendar pt-[5px]"></i>
+        <p>September 4, 2020</p>
+        <p>|</p>
+        <i class="fa-regular fa-clock pt-[5px]"></i>
+        <p>36 min</p>
+      </div>
+      <h2 class="text-[20px] w-[390px] pb-[10px]">What is traffic arbitrage and does it really make money?</h2>
+      <p class="text-[#424551] w-[390px] pb-[10px]">Pharetra, ullamcorper iaculis viverra parturient sed id sed.
+        Convallis proin dignissim lacus, purus gravida...</p>
+      <div class="flex gap-[7px]">
+        <p>Listen</p>
+        <i class="fa-solid fa-arrow-right pt-[5px]" style="color: #ff3f3a;"></i>
+      </div>
+    </div>
+    <div class="">
+      <img src="./img/image56.png" alt="">
+      <div class="text-[#787A80] flex gap-[10px] pt-[10px] pb-[10px]">
+        <p>Marketing</p>
+        <p>|</p>
+        <i class="fa-regular fa-calendar pt-[5px]"></i>
+        <p>September 4, 2020</p>
+        <p>|</p>
+        <i class="fa-regular fa-clock pt-[5px]"></i>
+        <p>36 min</p>
+      </div>
+      <h2 class="text-[20px] w-[390px] pb-[10px]">What is traffic arbitrage and does it really make money?</h2>
+      <p class="text-[#424551] w-[390px] pb-[10px]">Pharetra, ullamcorper iaculis viverra parturient sed id sed.
+        Convallis proin dignissim lacus, purus gravida...</p>
+      <div class="flex gap-[7px]">
+        <p>Watch</p>
+        <i class="fa-solid fa-arrow-right pt-[5px]" style="color: #ff3f3a;"></i>
+      </div>
+    </div>
+    <div class="">
+      <img src="./img/image57.png" alt="">
+      <div class="text-[#787A80] flex gap-[10px] pt-[10px] pb-[10px]">
+        <p>Marketing</p>
+        <p>|</p>
+        <i class="fa-regular fa-calendar pt-[5px]"></i>
+        <p>September 4, 2020</p>
+        <p>|</p>
+        <i class="fa-regular fa-clock pt-[5px]"></i>
+        <p>36 min</p>
+      </div>
+      <h2 class="text-[20px] w-[390px] pb-[10px]">What is traffic arbitrage and does it really make money?</h2>
+      <p class="text-[#424551] w-[390px] pb-[10px]">Pharetra, ullamcorper iaculis viverra parturient sed id sed.
+        Convallis proin dignissim lacus, purus gravida...</p>
+      <div class="flex gap-[7px]">
+        <p>Read</p>
+        <i class="fa-solid fa-arrow-right pt-[5px]" style="color: #ff3f3a;"></i>
+      </div>
+    </div>
+  </div>
+  <div class="w-[100%] md:h-[600px] sm:h-[800px] bg-[#f9c9c7] text-center justify-center">
+    <p class="text-[18px] pt-[50px]">Don’t miss anything</p>
+    <h2 class="text-[46px] md:w-[800px] sm:w-[300px] justify-self-center pb-[50px]">Subscribe to the Createx School
+      announcements</h2>
+    <div class="flex gap-[20px] justify-self-center sm:flex-col md:flex-row">
+      <input type="email" placeholder="Your working email"
+        class="md:w-[400px] sm:w-[300px] h-[45px] placeholder:pl-[20px]">
+      <button class="w-[200px] h-[44px] rounded-[4px] bg-[#F75E05] text-white md:ml-0 sm:ml-[50px]">Subscribe</button>
+    </div>
+    <div class="flex justify-between pt-[44px]">
+      <img src="./img/illustration (2).png" alt="">
+      <img src="./img/illustration (2).png" alt="" class="md:block sm:hidden">
+    </div>
+  </div>
+  <div class="bg-slate-950 text-[white] flex justify-center md:h-[60vh] h-auto sm:flex-col md:flex-row">
+    <div class="p-[20px]">
+      <img src="./img/logo (8).png" alt="">
+      <p class="mt-[20px]">Createx Online School is a leader in online studying. <br>
+        We have lots of courses and programs from the main <br>
+        market experts. We provide relevant approaches <br>
+        to online learning, internships and employment in the <br>
+        largest companies in the country. </p>
+      <img class="mt-[20px]" src="./img/socials (2).png" alt="">
+    </div>
+    <div class="p-[20px]">
+      <p class="text-white font-bold">SITE MAP</p>
+      <p class="text-[#3f3f3f] mt-[15px]">About Us</p>
+      <p class="text-[#3f3f3f] mt-[15px]">Courses</p>
+      <p class="text-[#3f3f3f] mt-[15px]">Events</p>
+      <p class="text-[#3f3f3f] mt-[15px]">Blog</p>
+      <p class="text-[#3f3f3f] mt-[15px]">Contacts</p>
+    </div>
+    <div class="mt-[20px] ml-[20px]">
+      <p class="text-white font-bold">COURSES</p>
+      <p class="text-[#3f3f3f] mt-[15px]">Marketing</p>
+      <p class="text-[#3f3f3f] mt-[15px]">Management</p>
+      <p class="text-[#3f3f3f] mt-[15px]">HR & Recruting</p>
+      <p class="text-[#3f3f3f] mt-[15px]">Design</p>
+      <p class="text-[#3f3f3f] mt-[15px]">Development</p>
+    </div>
+    <div class="p-[20px]">
+      <p class="text-white font-bold">CONTACT US</p>
+      <p class="text-[#3f3f3f] mt-[15px]">(405) 555-0128</p>
+      <p class="text-[#3f3f3f] mt-[15px]">hello@createx.com</p>
+    </div>
+    <div class="p-[20px]">
+      <p class="text-white font-bold">SIGN UP TO OUR NEWSLETTER</p>
+      <input class="bg-[#3f3f3f] p-[5px] w-[300px] mt-[20px]" type="text" placeholder="Email address          ">
+      <p class="text-[#3f3f3f] mt-[20px]">*Subscribe to our newsletter to receive communications and early <br>
+        updates from Createx SEO Agency.</p>
+    </div>
+  </div>
+  <footer class="bg-slate-800 text-[white] p-[20px] flex justify-around items-center">
+    <p>© All rights reserved.
+      Made with
+      by Createx Studio </p>
+    <p class="hidden md:block">GO TO TOP</p>
+    </footer>
 </body>
+
 </html>
