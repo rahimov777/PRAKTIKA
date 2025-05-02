@@ -858,10 +858,6 @@ video {
   justify-self: center;
 }
 
-.overflow-scroll {
-  overflow: scroll;
-}
-
 .rounded-\[10px\] {
   border-radius: 10px;
 }
@@ -1307,6 +1303,10 @@ video {
     justify-self: center;
   }
 
+  .sm\:overflow-scroll {
+    overflow: scroll;
+  }
+
   .sm\:pb-\[50px\] {
     padding-bottom: 50px;
   }
@@ -1487,6 +1487,10 @@ video {
 
   .md\:justify-self-start {
     justify-self: start;
+  }
+
+  .md\:overflow-hidden {
+    overflow: hidden;
   }
 
   .md\:pl-0 {
